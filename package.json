@@ -1,0 +1,30 @@
+{
+    "name": "datatables.net-autofill-jqui",
+    "version": "2.0.0",
+    "description": "AutoFill for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+    "files": [
+        "js/autoFill.jqueryui.js",
+        "css/autoFill.jqueryui.css"
+    ],
+    "main": "./js/autoFill.jqueryui.js",
+    "keywords": [
+        "autofill",
+        "excel",
+        "DataTables",
+        "jQuery",
+        "table",
+        "jQuery UI"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-jqui": ">=1.10.9",
+        "datatables.net-autofill": ">=2.0.0"
+    }
+}
