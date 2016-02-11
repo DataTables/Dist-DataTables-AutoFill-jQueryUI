@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-autofill-jqui",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "AutoFill for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "js/autoFill.jqueryui.js",
