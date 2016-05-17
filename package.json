@@ -6,7 +6,8 @@
         "js/autoFill.jqueryui.js",
         "css/autoFill.jqueryui.css"
     ],
-    "main": "./js/autoFill.jqueryui.js",
+    "main": "js/autoFill.jqueryui.js",
+    "style": "css/autoFill.jqueryui.css",
     "keywords": [
         "autofill",
         "excel",
