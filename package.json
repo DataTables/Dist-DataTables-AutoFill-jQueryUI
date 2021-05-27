@@ -1,33 +1,46 @@
 {
     "name": "datatables.net-autofill-jqui",
+    "description": "AutoFill for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/autoFill.jqueryui.js",
+    "style": "css/autoFill.jqueryui.css",
     "version": "2.3.6",
-    "description": "AutoFill for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/autoFill.jqueryui.js",
-    "style": "css/autoFill.jqueryui.css",
     "keywords": [
-        "autofill",
-        "excel",
-        "DataTables",
+        "AutoFill",
+ "Excel",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-autofill": ">=2.3.6",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-autofill": "2.3.6"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-AutoFill-jQueryUI.git"
