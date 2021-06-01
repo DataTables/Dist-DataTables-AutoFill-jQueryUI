@@ -3,6 +3,7 @@
     "description": "AutoFill for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/autoFill.jqueryui.js",
     "style": "css/autoFill.jqueryui.css",
+    "types": "./types/autoFill.jQueryUI.d.ts",
     "version": "2.3.6",
     "files": [
         "css/**/*.css",
