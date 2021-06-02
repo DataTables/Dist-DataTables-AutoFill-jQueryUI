@@ -11,9 +11,9 @@
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -21,9 +21,9 @@
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-autofill": "2.3.7"
+        "datatables.net-autofill": ">=2.3.7",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
