@@ -4,7 +4,7 @@
     "main": "js/autoFill.jqueryui.js",
     "style": "css/autoFill.jqueryui.css",
     "types": "./types/autoFill.jQueryUI.d.ts",
-    "version": "2.3.7",
+    "version": "2.3.9",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,9 +12,9 @@
     ],
     "keywords": [
         "AutoFill",
- "Excel",
+        "Excel",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
