@@ -4,7 +4,7 @@
     "main": "js/autoFill.jqueryui.js",
     "style": "css/autoFill.jqueryui.css",
     "types": "./types/autoFill.jQueryUI.d.ts",
-    "version": "2.3.7",
+    "version": "2.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": ">=2.3.7",
-        "datatables.net-jqui": ">=1.11.5",
+        "datatables.net-autofill": ">=2.4.0",
+        "datatables.net-jqui": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
