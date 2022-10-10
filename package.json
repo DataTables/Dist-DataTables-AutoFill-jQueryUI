@@ -2,12 +2,14 @@
     "name": "datatables.net-autofill-jqui",
     "description": "AutoFill for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/autoFill.jqueryui.js",
+    "module": "js/autoFill.jqueryui.mjs",
     "style": "css/autoFill.jqueryui.css",
     "types": "./types/autoFill.jQueryUI.d.ts",
     "version": "2.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

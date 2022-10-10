@@ -1,4 +1,17 @@
 {
-    "last-sync": "fa20697f9691bfb1d1576b5a0c7a0c33e7960121",
-    "last-tag": "2.3.9"
+    "js": [
+        "js/autoFill.jqueryui.js",
+        "js/autoFill.jqueryui.min.js",
+        "js/autoFill.jqueryui.min.mjs",
+        "js/autoFill.jqueryui.mjs"
+    ],
+    "css": [
+        "css/autoFill.jqueryui.css",
+        "css/autoFill.jqueryui.min.css"
+    ],
+    "types": [
+        "types/autoFill.jQueryUI.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/AutoFill",
+    "last-tag": "2.4.0"
 }
