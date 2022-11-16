@@ -5,7 +5,7 @@
 (function( factory ){
 	if ( typeof define === 'function' && define.amd ) {
 		// AMD
-		define( ['jquery', 'datatables.net-ju', 'datatables.net-autofill'], function ( $ ) {
+		define( ['jquery', 'datatables.net-jqui', 'datatables.net-autofill'], function ( $ ) {
 			return factory( $, window, document );
 		} );
 	}
@@ -25,13 +25,12 @@
 			}
 
 			if ( ! $.fn.dataTable ) {
-				require('datatables.net-ju')(root, $);
+				require('datatables.net-jqui')(root, $);
 			}
 
 			if ( ! $.fn.dataTable.AutoFill ) {
 				require('datatables.net-autofill')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
