@@ -7,7 +7,6 @@ import DataTable from 'datatables.net-jqui';
 import AutoFill from 'datatables.net-autofill';
 
 
-
 DataTable.AutoFill.classes.btn = 'ui-button ui-state-default ui-corner-all';
 
 
