@@ -4,7 +4,7 @@
     "main": "js/autoFill.jqueryui.js",
     "module": "js/autoFill.jqueryui.mjs",
     "style": "css/autoFill.jqueryui.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/autoFill.jqueryui.d.ts",
     "version": "2.5.3",
     "files": [
         "css/**/*.css",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": ">=2.4.0",
-        "datatables.net-jqui": ">=1.12.1",
+        "datatables.net-autofill": ">=2.5.3",
+        "datatables.net-jqui": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
