@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>AutoFill  Excel  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-autofill" version="2.4.0"/>
-            <dependency id="datatables.net-jqui" version="1.12.1"/>
+            <dependency id="datatables.net-autofill" version="2.7.0"/>
+            <dependency id="datatables.net-jqui" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/autoFill.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/autoFill.jqueryui.min.js" target="content\Scripts"/>
         <file src="js/autoFill.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/autoFill.jqueryui.min.mjs" target="content\Scripts"/>
+        <file src="js/autoFill.jqueryui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/autoFill.jqueryui.mjs" target="content\Scripts"/>
+        <file src="js/autoFill.jqueryui.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/autoFill.jqueryui.css" target="content\Content"/>
         <file src="css/autoFill.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/autoFill.jqueryui.min.css" target="content\Content"/>
