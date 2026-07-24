@@ -5,7 +5,7 @@
     "module": "js/autoFill.jqueryui.mjs",
     "style": "css/autoFill.jqueryui.css",
     "types": "./types/autoFill.jqueryui.d.ts",
-    "version": "3.0.0-beta.1",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": "3.0.0-beta.1",
-        "datatables.net-jqui": "1.11 - 2"
+        "datatables.net-autofill": "3.0.0",
+        "datatables.net-jqui": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
