@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-autofill-jqui",
     "description": "AutoFill for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/autoFill.jqueryui.js",
-    "module": "js/autoFill.jqueryui.mjs",
-    "style": "css/autoFill.jqueryui.css",
+    "main": "./js/autoFill.jqueryui.js",
+    "module": "./js/autoFill.jqueryui.mjs",
+    "style": "./css/autoFill.jqueryui.css",
     "types": "./types/autoFill.jqueryui.d.ts",
     "version": "3.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "AutoFill",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/AutoFill.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/autoFill.jqueryui.d.ts",
+            "import": "./js/autoFill.jqueryui.mjs",
+            "default": "./js/autoFill.jqueryui.mjs",
+            "require": "./js/autoFill.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/autoFill.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
