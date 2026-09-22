@@ -1,4 +1,4 @@
-/*! AutoFill jQuery UI styling 3.1.0 for DataTables
+/*! AutoFill jQuery UI styling 3.1.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
