@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/autoFill.jqueryui.d.ts",
+            "style": "./css/autoFill.jqueryui.css",
             "import": "./js/autoFill.jqueryui.mjs",
-            "default": "./js/autoFill.jqueryui.mjs",
-            "require": "./js/autoFill.jqueryui.js"
+            "require": "./js/autoFill.jqueryui.js",
+            "default": "./js/autoFill.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
